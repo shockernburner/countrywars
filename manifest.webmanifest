@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "World History Country Explorer",
+  "short_name": "History Explorer",
+  "description": "A child-friendly country browser for learning about documented interstate conflicts.",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#dff5ff",
+  "theme_color": "#3185fc",
+  "lang": "en",
+  "categories": ["education", "kids"],
+  "icons": [
+    {"src":"./icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"./icons/icon-maskable-192.png","sizes":"192x192","type":"image/png","purpose":"maskable"},
+    {"src":"./icons/icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ],
+  "shortcuts": [
+    {"name":"Search countries","short_name":"Search","url":"./?action=search","icons":[{"src":"./icons/icon-192.png","sizes":"192x192"}]},
+    {"name":"Surprise country","short_name":"Surprise","url":"./?action=surprise","icons":[{"src":"./icons/icon-192.png","sizes":"192x192"}]}
+  ]
+}
